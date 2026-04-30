@@ -1,0 +1,465 @@
+{
+  "selected_knowledge_points": [
+    "情绪识别与情绪管理",
+    "地图阅读与方向判断",
+    "地形地貌与地表特征",
+    "水的组成与净化",
+    "摩擦力",
+    "燃烧与灭火条件",
+    "反射定律",
+    "声音的产生与传播"
+  ],
+  "selection_rationale": [
+    "严格遵循剧情任务链，确保每一步的科学知识对应当前自救情境中最紧迫的生存问题。",
+    "逻辑排序：从心理稳定到方向确定，从环境选择到基础生存（水、火），最后通过光学和声学信号完成获救，形成完整的‘遇险-生存-求救’闭环。",
+    "知识点选择兼顾了跨学科性（心理、地理、化学、物理），符合小学高年级到初中低年级的认知水平。"
+  ],
+  "main_goal": "通过科学判断，在森林中冷静应对危机并成功向救援人员发出信号。",
+  "story_intro": "春天的森林本应是欢声笑语的，但就在刚才，你因为追逐一只罕见的蝴蝶，穿过了一片茂密的灌木丛，回头时发现老师和同学们的背影已经消失在密林深处。四周静得可怕，只有风吹过树梢的沙沙声。你没有手机，背囊里只有半瓶水、一块备用的反光镜和几个简单的野营小工具。太阳正在西斜，如果你不能保持冷静并利用科学知识自救，你将在森林里度过一个危险的夜晚。",
+  "levels": [
+    {
+      "level_number": 1,
+      "knowledge_point": "情绪识别与情绪管理",
+      "primary_knowledge_point": "情绪识别与情绪管理",
+      "supporting_knowledge_points": [],
+      "knowledge_role_in_this_level": "主知识点推进",
+      "knowledge_point_reused": false,
+      "reuse_from_level": null,
+      "stage_label": "情绪识别与情绪管理",
+      "state_before": "角色处于极度焦虑和想要尖叫乱跑的状态。",
+      "scene_description": "你大声呼喊了几声，却没有人回应。丛林的阴影似乎在慢慢向你靠拢，你的手开始颤抖，大脑一片空白，第一反应是拼命朝一个方向奔跑寻找队友。",
+      "challenge": "如何抑制逃跑的冲动，恢复理智？",
+      "core_task": "识别当前的恐慌情绪并采取呼吸调节法让自己冷静下来。",
+      "stakes": "盲目乱跑会耗费大量体力，且容易彻底迷失方向或掉入深坑。",
+      "micro_decision_focus": "在“立刻奔跑”和“原地深呼吸”之间做出选择，识别生理指标（如心跳、手抖）背后的情绪。",
+      "task_type": "心理状态自我调节",
+      "variety_guard": "本关只讨论心理层面，不要涉及方向判断，避免分散注意力。",
+      "transition_hint": "深呼吸后，你抬头看向天空，意识到必须先确定方位，否则所有的行走都是徒劳。",
+      "misconceptions": [
+        {
+          "option": "认为紧张是胆小的表现而强行压抑",
+          "flaw": "不承认情绪反而会加剧潜意识焦虑"
+        },
+        {
+          "option": "立刻开始全速奔跑试图追上大部队",
+          "flaw": "在没确定方向前，奔跑只会让你离目标越来越远"
+        }
+      ],
+      "why_here": "身处险境时，恐慌会导致心跳加速、判断力下降甚至盲目乱跑导致摔伤，因此识别并稳定情绪是所有自救行为的前提。",
+      "entry_trigger": "发现自己落单后的突发恐慌感。",
+      "exit_trigger": "心跳平复，能够观察周围环境并思考下一步。",
+      "success_state": "心跳平复，能够观察周围环境并思考下一步。",
+      "bridge_reason": "只有冷静下来，你才能想起在地理课上学过的方向辨别知识。",
+      "transition_reason": "情绪稳定后，第一件事就是确定自己该往哪走。",
+      "continuity_focus": "心理状态到逻辑思维的转换。"
+    },
+    {
+      "level_number": 2,
+      "knowledge_point": "地图阅读与方向判断",
+      "primary_knowledge_point": "地图阅读与方向判断",
+      "supporting_knowledge_points": [
+        "情绪识别与情绪管理"
+      ],
+      "knowledge_role_in_this_level": "主知识点推进",
+      "knowledge_point_reused": false,
+      "reuse_from_level": null,
+      "stage_label": "地图阅读与方向判断",
+      "state_before": "角色冷静但完全不知道东西南北。",
+      "scene_description": "四周的树木长得一模一样，你记得地图上显示过，营地在森林的北侧。现在太阳还没下山，正挂在你的右后方。",
+      "challenge": "在缺乏指南针的情况下，如何最可靠地判断北方？",
+      "core_task": "利用太阳的实时位置判断基本方位。",
+      "stakes": "如果完全依靠“苔藓茂密程度”等模糊依据，极容易因地形遮挡而判断失误，走入深山。",
+      "micro_decision_focus": "对比“看树皮苔藓”和“根据时间利用太阳位置”两种方法，选择科学确定性更高的一种。",
+      "task_type": "天文/地理定向",
+      "variety_guard": "排除干扰项中的风向和水源方向，专注于绝对地理方位。",
+      "transition_hint": "选定北方后，你向前走去，很快发现前方地势开始变得起伏不定，山脊与深沟交错。",
+      "misconceptions": [
+        {
+          "option": "观察树干南侧苔藓是否更少来判断",
+          "flaw": "森林内部潮湿环境会使苔藓分布受遮阴影响，不具有普适性"
+        },
+        {
+          "option": "盲目跟随风吹的方向走",
+          "flaw": "山谷中的风向受地形影响具有欺骗性"
+        }
+      ],
+      "why_here": "在森林中，正确的方位决定了你是否能靠近已知的人烟区域。本关强调“可靠科学依据”而非“不确定经验”。",
+      "entry_trigger": "情绪平定后，需要决定前进的初步逻辑方向。",
+      "exit_trigger": "明确了北方的大致位置。",
+      "success_state": "明确了北方的大致位置。",
+      "bridge_reason": "确定了向北走的基调后，你需要面对具体的地形选择前进路线。",
+      "transition_reason": "知道方向不代表路好走，前方出现了复杂的起伏地形。",
+      "continuity_focus": "宏观方向到微观路径的衔接。"
+    },
+    {
+      "level_number": 3,
+      "knowledge_point": "地形地貌与地表特征",
+      "primary_knowledge_point": "地形地貌与地表特征",
+      "supporting_knowledge_points": [
+        "地图阅读与方向判断"
+      ],
+      "knowledge_role_in_this_level": "主知识点推进",
+      "knowledge_point_reused": false,
+      "reuse_from_level": null,
+      "stage_label": "地形地貌与地表特征",
+      "state_before": "角色选定了方向，但面对陡坡和密林有些畏难。",
+      "scene_description": "你的眼前有一条虽然陡峭但视野开阔的山脊，以及一条地势平坦但草丛极深、看不清地面的山谷。你需要决定走哪条路线能更快下山。",
+      "challenge": "理解山脊、山谷在实地环境中的特征及通行风险。",
+      "core_task": "选择地势相对平缓、视野好、不易迷路的路径（通常是顺着山脊或相对平缓的缓坡）。",
+      "stakes": "走山谷容易遭遇山洪余患或迷失在密草中，走太陡的坡则有滑落风险。",
+      "micro_decision_focus": "通过观察等高线分布逻辑或地貌外观，判断哪种地形更易于通行且容易被搜救人员发现。",
+      "task_type": "地形判断决策",
+      "variety_guard": "本关强调“安全性”与“视野”，避免引入植物辨认。",
+      "transition_hint": "沿着缓坡下行，你听到清脆的流水声，一条溪流出现在眼前，你嗓子干得冒烟，急需喝水。",
+      "misconceptions": [
+        {
+          "option": "直接跳入地势最低的山谷深处行进",
+          "flaw": "山谷植被茂密遮挡视线，且若有雨水汇聚极度危险"
+        },
+        {
+          "option": "尝试攀爬最近的垂直岩壁以求快速下降",
+          "flaw": "缺乏装备攀爬属于自杀行为"
+        }
+      ],
+      "why_here": "自救行走需要规避危险地形（如陡坡、滑坡）并寻找最容易发现人类活动的区域（如开阔地或河谷边缘）。",
+      "entry_trigger": "前进路线上出现了山脊和深谷的选择。",
+      "exit_trigger": "安全下到半山腰，并发现了一处小溪。",
+      "success_state": "安全下到半山腰，并发现了一处小溪。",
+      "bridge_reason": "行走和精神压力让你感到极度口渴，小溪的出现解决了生存的燃眉之急。",
+      "transition_reason": "体力消耗严重，缺水成为当前最大的威胁。",
+      "continuity_focus": "体能消耗与资源获取的衔接。"
+    },
+    {
+      "level_number": 4,
+      "knowledge_point": "水的组成与净化",
+      "primary_knowledge_point": "水的组成与净化",
+      "supporting_knowledge_points": [
+        "地形地貌与地表特征"
+      ],
+      "knowledge_role_in_this_level": "主知识点推进",
+      "knowledge_point_reused": false,
+      "reuse_from_level": null,
+      "stage_label": "水的组成与净化",
+      "state_before": "口渴难耐，但理智告诉你不能直接捧水就喝。",
+      "scene_description": "溪水虽然清澈，但上游可能有野生动物排泄物。你翻出矿泉水瓶，剪掉底部，准备制作一个简易的过滤装置。",
+      "challenge": "碎石、细沙、木炭、布料，这些材料应该按什么顺序排列才能达到最佳过滤效果？",
+      "core_task": "按照颗粒度从小到大（或功能互补）的逻辑排列过滤层。",
+      "stakes": "错误的顺序会导致水质依然浑浊，甚至饮用后引发腹泻导致严重脱水。",
+      "micro_decision_focus": "层级过滤顺序决策：底部放布料，向上依次是细沙、木炭、碎石。",
+      "task_type": "材料排序实验",
+      "variety_guard": "只关注物理/化学性质的净化，不涉及生物除菌（因目前无火）。",
+      "transition_hint": "喝完净化水后，你发现太阳完全落山了，森林里的风变得刺骨，你必须在天黑透前生起一堆火。",
+      "misconceptions": [
+        {
+          "option": "直接用布料简单兜着水过滤就喝",
+          "flaw": "无法去除细小微粒和部分有机杂质"
+        },
+        {
+          "option": "先放碎石在最底层，细沙在最顶层",
+          "flaw": "细沙会随水流流失，且无法阻挡上层冲刷下来的大颗粒"
+        }
+      ],
+      "why_here": "野外水源可能含有细菌、寄生虫或泥沙，不能直接饮用，考察净水物理过滤的原理。",
+      "entry_trigger": "到达溪边，需要将生水转化为饮用水。",
+      "exit_trigger": "获得了一瓶初步净化的水，补充了体力。",
+      "success_state": "获得了一瓶初步净化的水，补充了体力。",
+      "bridge_reason": "水解决了，但天色暗了，温度迅速下降，你开始感到寒冷。",
+      "transition_reason": "生理需求从解渴转向保暖，夜晚即将来临。",
+      "continuity_focus": "生存资源从“水”向“火”转移。"
+    },
+    {
+      "level_number": 5,
+      "knowledge_point": "摩擦力",
+      "primary_knowledge_point": "摩擦力",
+      "supporting_knowledge_points": [
+        "水的组成与净化"
+      ],
+      "knowledge_role_in_this_level": "主知识点推进",
+      "knowledge_point_reused": false,
+      "reuse_from_level": null,
+      "stage_label": "摩擦力",
+      "state_before": "角色搜集到了干草和木材，但缺乏火源。",
+      "scene_description": "你找到了一块干燥的松木板和一根坚硬的木棒。你尝试快速旋转木棒，但好一会儿了，除了手疼，连烟都没冒出来。",
+      "challenge": "如何改进操作才能让接触点产生足够引燃干草的热量？",
+      "core_task": "理解摩擦力做功产热的原理，调整垂直压力和旋转频率。",
+      "stakes": "操作不当只会白白浪费体力，甚至磨破手掌，在寒冷中失去火源保护。",
+      "micro_decision_focus": "对比“轻快旋转”与“重力下压并匀速旋转”的产热效率。",
+      "task_type": "物理操作优化",
+      "variety_guard": "专注于“产生热量”的初始阶段，不涉及火堆搭建。",
+      "transition_hint": "那一丝烟雾让你看到了希望，你小心翼翼地把火苗移向准备好的引火物，现在你需要让这团微火变成火堆。",
+      "misconceptions": [
+        {
+          "option": "在湿润的木头表面拼命旋转",
+          "flaw": "水分汽化吸收大量热量，且摩擦系数低，无法达到燃点"
+        },
+        {
+          "option": "只要速度快就行，不需要向下用力",
+          "flaw": "压力不足会导致摩擦力过小，产生的热能不足以引燃木屑"
+        }
+      ],
+      "why_here": "取火是生存的核心，摩擦生热是物理常识的直接应用，考察如何通过增加压力和粗糙度来提高温度。",
+      "entry_trigger": "需要通过钻木取火法获得火种。",
+      "exit_trigger": "木屑开始冒烟，你获得了一团微弱的火苗。",
+      "success_state": "木屑开始冒烟，你获得了一团微弱的火苗。",
+      "bridge_reason": "火种很娇贵，如果没有后续的合理搭建，它很快会熄灭。",
+      "transition_reason": "从“引火”进入“续火”阶段。",
+      "continuity_focus": "物理产热到化学燃烧条件的逻辑衔接。"
+    },
+    {
+      "level_number": 6,
+      "knowledge_point": "燃烧与灭火条件",
+      "primary_knowledge_point": "燃烧与灭火条件",
+      "supporting_knowledge_points": [
+        "摩擦力"
+      ],
+      "knowledge_role_in_this_level": "主知识点推进",
+      "knowledge_point_reused": false,
+      "reuse_from_level": null,
+      "stage_label": "燃烧与灭火条件",
+      "state_before": "角色手里有一小团燃烧的干草。",
+      "scene_description": "你急忙把粗木头一股脑地压在火苗上，结果火苗不仅没变大，反而变黑冒烟快要熄灭了。你意识到自己犯了错。",
+      "challenge": "如何重新摆放木材以保证火焰旺盛？",
+      "core_task": "搭建支架结构（如井字形或印第安帐篷形），保证内部有充足的空气流通。",
+      "stakes": "缺氧会导致火堆熄灭，夜晚将再次降临黑暗与寒冷。",
+      "micro_decision_focus": "选择“紧密堆叠”还是“留有缝隙的架空堆叠”。",
+      "task_type": "空间布局/化学平衡",
+      "variety_guard": "不要在本关讨论灭火，专注于“持续燃烧”。",
+      "transition_hint": "坐在火堆旁，你感觉到暖和多了。你突然想起背包里的备用反光镜，也许能利用火光引起远处巡逻者的注意。",
+      "misconceptions": [
+        {
+          "option": "把木柴塞得越满越好，认为燃料多火才大",
+          "flaw": "导致缺乏氧气（助燃物），形成不完全燃烧并熄灭"
+        },
+        {
+          "option": "不断向火堆泼水试图控制火势",
+          "flaw": "直接降低温度到燃点以下，导致灭火"
+        }
+      ],
+      "why_here": "维持火堆需要氧气充足，考察对“燃烧三要素”中助燃物的理解。",
+      "entry_trigger": "火苗已经燃起，需要添加大块木材使其稳定。",
+      "exit_trigger": "火堆熊熊燃起，解决了保暖问题，且在黑夜中非常显眼。",
+      "success_state": "火堆熊熊燃起，解决了保暖问题，且在黑夜中非常显眼。",
+      "bridge_reason": "火光的亮度让你想到，也许能利用反射原理把光传得更远。",
+      "transition_reason": "生存问题基本解决，重心转向主动求救。",
+      "continuity_focus": "稳定火源到光学求救信号的转换。"
+    },
+    {
+      "level_number": 7,
+      "knowledge_point": "反射定律",
+      "primary_knowledge_point": "反射定律",
+      "supporting_knowledge_points": [
+        "燃烧与灭火条件"
+      ],
+      "knowledge_role_in_this_level": "主知识点推进",
+      "knowledge_point_reused": false,
+      "reuse_from_level": null,
+      "stage_label": "反射定律",
+      "state_before": "角色拥有稳定火源和一面镜子。",
+      "scene_description": "天空中隐约传来了无人机的螺旋桨声，或者远处山梁上有光点晃动。你拿着反光镜，试图将火堆的光反射到那个方向去。",
+      "challenge": "如何调整镜面的角度，使反射光准确对准目标方位？",
+      "core_task": "应用“反射角等于入射角”的原理，找到法线位置并进行微调。",
+      "stakes": "如果反射角不对，救援人员看到的只是杂乱背景，无法捕捉到你的位置坐标。",
+      "micro_decision_focus": "判断镜面与光源、目标之间的几何关系，选择正确的倾斜角度。",
+      "task_type": "光学角度操作",
+      "variety_guard": "区分镜面反射与漫反射，确保学生理解为什么必须要用光滑镜面。",
+      "transition_hint": "对方好像看到了闪光，开始向这边移动，但距离还很远，森林的枝叶遮住了火光，你需要发出更响的声音。",
+      "misconceptions": [
+        {
+          "option": "把镜子完全垂直于火堆放置",
+          "flaw": "光线会反射回火堆，无法射向远方目标"
+        },
+        {
+          "option": "用衣服遮挡镜面希望产生闪烁",
+          "flaw": "此时应保持稳定持续的高亮度反射，而非减弱光线"
+        }
+      ],
+      "why_here": "镜面反射可以显著增加光亮被发现的距离。这是物理光学在求救场景中的经典应用。",
+      "entry_trigger": "远处山梁似乎有微弱的手电光扫过。",
+      "exit_trigger": "光束准确射向了目标方向，对方似乎停顿并转向了你。",
+      "success_state": "光束准确射向了目标方向，对方似乎停顿并转向了你。",
+      "bridge_reason": "光学信号可能受树木阻挡，需要增加声学信号辅助定位。",
+      "transition_reason": "救援者接近，需要最后的精确定位。",
+      "continuity_focus": "光学定位到声学确认的衔接。"
+    },
+    {
+      "level_number": 8,
+      "knowledge_point": "声音的产生与传播",
+      "primary_knowledge_point": "声音的产生与传播",
+      "supporting_knowledge_points": [
+        "反射定律"
+      ],
+      "knowledge_role_in_this_level": "主知识点推进",
+      "knowledge_point_reused": false,
+      "reuse_from_level": null,
+      "stage_label": "声音的产生与传播",
+      "state_before": "角色筋疲力尽，嗓子已经喊哑了。",
+      "scene_description": "“喂——有人吗——”搜救员的声音从不远处的山沟传来。你已经没力气大喊了，环顾四周，你身边有一棵巨大的中空枯树干、一块石头和一把小哨子。",
+      "challenge": "哪种方式能发出频率更高、传播更远且更具辨识度的声音？",
+      "core_task": "对比人体发声、敲击固体和吹响高频哨子的传播效果。",
+      "stakes": "如果声音传播距离不够或与背景风声混淆，搜救人员可能会错过你，转向搜索其他区域。",
+      "micro_decision_focus": "理解频率（音调）和振幅（响度）对远距离传播的影响，选择能量集中的哨音或利用固体共鸣。",
+      "task_type": "声学介质/特性选择",
+      "variety_guard": "本关作为结局，强调“有效沟通”，避开回声干扰（除非地形特殊）。",
+      "transition_hint": "“在这里！我们找到他了！”搜救员的欢呼声响起。你长舒一口气，成功获救。",
+      "misconceptions": [
+        {
+          "option": "继续用已经沙哑的嗓子喊叫",
+          "flaw": "声音频率低，且人体体能有限，无法持久传播"
+        },
+        {
+          "option": "用石头无规则地敲击湿润的地面",
+          "flaw": "地面是疏松介质，吸收能量快，传不远"
+        }
+      ],
+      "why_here": "最后一步定位需要最具穿透力的声音，考察声音在不同介质中传播和不同发声方式的特性。",
+      "entry_trigger": "听到搜救队员的呼喊声，但对方还没发现具体的帐篷位置。",
+      "exit_trigger": "尖锐的哨声划破长空，搜救灯光终于照到了你的身上。",
+      "success_state": "尖锐的哨声划破长空，搜救灯光终于照到了你的身上。",
+      "bridge_reason": "声音传达了你的确切坐标，任务完成。",
+      "transition_reason": "救援成功，自救故事完结。",
+      "continuity_focus": "最终结局呈现。"
+    }
+  ],
+  "story_ending": "当老师和搜救队员出现在你面前时，你紧绷的神经终于松弛下来。通过这一路的博弈，你不仅克服了内心的恐惧，还亲手实践了物理、地理和化学知识。你坐上救援车，看着渐渐远去的火堆，明白了一个道理：知识不仅在课本里，更是在危急时刻救命的钥匙。你安全地回到了营地，成为了全班眼中的‘生存专家’。",
+  "story_arc": {
+    "main_goal": "你们班组织到森林中春游，结果主角不小心与大部队走散。主角需要在独自应对紧张、迷失、寒冷、缺水、求救等连续问题的过程中，借助科学知识一步步完成自救，最终成功被老师或救援人员找到，并安全返回队伍。",
+    "story_intro": "你进入了这样的情境：你们班组织到森林中春游，结果主角不小心与大部队走散。主角需要在独自应对紧张、迷失、寒冷、缺水、求救等连续问题的过程中，借助科学知识一步步完成自救，最终成功被老师或救援人员找到，并安全返回队伍。",
+    "story_ending": "经历一连串判断与选择后，你完成了这段教育冒险。",
+    "stages": [
+      {
+        "level_number": 1,
+        "stage_label": "第1阶段",
+        "state_before": "故事刚开始，角色还在摸索第一步。",
+        "scene_description": "延续上一阶段结果，推进同一主线任务。",
+        "core_task": "解决当前阶段最关键、最现实的阻塞问题。",
+        "stakes": "如果这一关判断失误，主线任务会被拖慢或方向走偏。",
+        "success_state": "当前阶段的问题被缓解，你获得进入下一阶段所需的条件。",
+        "transition_reason": "这一关的结果直接改变了局面，因此顺势进入下一阶段。",
+        "continuity_focus": "让下一关来自当前结果状态，而不是另起炉灶。",
+        "micro_decision_focus": "设计一个必须调用知识判断的真实微决策。",
+        "variety_guard": "避免与前一关重复同一种微决策外壳。"
+      },
+      {
+        "level_number": 2,
+        "stage_label": "第2阶段",
+        "state_before": "当前阶段的问题被缓解，你获得进入下一阶段所需的条件。",
+        "scene_description": "延续上一阶段结果，推进同一主线任务。",
+        "core_task": "解决当前阶段最关键、最现实的阻塞问题。",
+        "stakes": "如果这一关判断失误，主线任务会被拖慢或方向走偏。",
+        "success_state": "当前阶段的问题被缓解，你获得进入下一阶段所需的条件。",
+        "transition_reason": "这一关的结果直接改变了局面，因此顺势进入下一阶段。",
+        "continuity_focus": "让下一关来自当前结果状态，而不是另起炉灶。",
+        "micro_decision_focus": "设计一个必须调用知识判断的真实微决策。",
+        "variety_guard": "避免与前一关重复同一种微决策外壳。"
+      },
+      {
+        "level_number": 3,
+        "stage_label": "第3阶段",
+        "state_before": "当前阶段的问题被缓解，你获得进入下一阶段所需的条件。",
+        "scene_description": "延续上一阶段结果，推进同一主线任务。",
+        "core_task": "解决当前阶段最关键、最现实的阻塞问题。",
+        "stakes": "如果这一关判断失误，主线任务会被拖慢或方向走偏。",
+        "success_state": "当前阶段的问题被缓解，你获得进入下一阶段所需的条件。",
+        "transition_reason": "这一关的结果直接改变了局面，因此顺势进入下一阶段。",
+        "continuity_focus": "让下一关来自当前结果状态，而不是另起炉灶。",
+        "micro_decision_focus": "设计一个必须调用知识判断的真实微决策。",
+        "variety_guard": "避免与前一关重复同一种微决策外壳。"
+      },
+      {
+        "level_number": 4,
+        "stage_label": "第4阶段",
+        "state_before": "当前阶段的问题被缓解，你获得进入下一阶段所需的条件。",
+        "scene_description": "延续上一阶段结果，推进同一主线任务。",
+        "core_task": "解决当前阶段最关键、最现实的阻塞问题。",
+        "stakes": "如果这一关判断失误，主线任务会被拖慢或方向走偏。",
+        "success_state": "当前阶段的问题被缓解，你获得进入下一阶段所需的条件。",
+        "transition_reason": "这一关的结果直接改变了局面，因此顺势进入下一阶段。",
+        "continuity_focus": "让下一关来自当前结果状态，而不是另起炉灶。",
+        "micro_decision_focus": "设计一个必须调用知识判断的真实微决策。",
+        "variety_guard": "避免与前一关重复同一种微决策外壳。"
+      },
+      {
+        "level_number": 5,
+        "stage_label": "第5阶段",
+        "state_before": "当前阶段的问题被缓解，你获得进入下一阶段所需的条件。",
+        "scene_description": "延续上一阶段结果，推进同一主线任务。",
+        "core_task": "解决当前阶段最关键、最现实的阻塞问题。",
+        "stakes": "如果这一关判断失误，主线任务会被拖慢或方向走偏。",
+        "success_state": "当前阶段的问题被缓解，你获得进入下一阶段所需的条件。",
+        "transition_reason": "这一关的结果直接改变了局面，因此顺势进入下一阶段。",
+        "continuity_focus": "让下一关来自当前结果状态，而不是另起炉灶。",
+        "micro_decision_focus": "设计一个必须调用知识判断的真实微决策。",
+        "variety_guard": "避免与前一关重复同一种微决策外壳。"
+      },
+      {
+        "level_number": 6,
+        "stage_label": "第6阶段",
+        "state_before": "当前阶段的问题被缓解，你获得进入下一阶段所需的条件。",
+        "scene_description": "延续上一阶段结果，推进同一主线任务。",
+        "core_task": "解决当前阶段最关键、最现实的阻塞问题。",
+        "stakes": "如果这一关判断失误，主线任务会被拖慢或方向走偏。",
+        "success_state": "当前阶段的问题被缓解，你获得进入下一阶段所需的条件。",
+        "transition_reason": "这一关的结果直接改变了局面，因此顺势进入下一阶段。",
+        "continuity_focus": "让下一关来自当前结果状态，而不是另起炉灶。",
+        "micro_decision_focus": "设计一个必须调用知识判断的真实微决策。",
+        "variety_guard": "避免与前一关重复同一种微决策外壳。"
+      },
+      {
+        "level_number": 7,
+        "stage_label": "第7阶段",
+        "state_before": "当前阶段的问题被缓解，你获得进入下一阶段所需的条件。",
+        "scene_description": "延续上一阶段结果，推进同一主线任务。",
+        "core_task": "解决当前阶段最关键、最现实的阻塞问题。",
+        "stakes": "如果这一关判断失误，主线任务会被拖慢或方向走偏。",
+        "success_state": "当前阶段的问题被缓解，你获得进入下一阶段所需的条件。",
+        "transition_reason": "这一关的结果直接改变了局面，因此顺势进入下一阶段。",
+        "continuity_focus": "让下一关来自当前结果状态，而不是另起炉灶。",
+        "micro_decision_focus": "设计一个必须调用知识判断的真实微决策。",
+        "variety_guard": "避免与前一关重复同一种微决策外壳。"
+      },
+      {
+        "level_number": 8,
+        "stage_label": "第8阶段",
+        "state_before": "当前阶段的问题被缓解，你获得进入下一阶段所需的条件。",
+        "scene_description": "延续上一阶段结果，推进同一主线任务。",
+        "core_task": "解决当前阶段最关键、最现实的阻塞问题。",
+        "stakes": "如果这一关判断失误，主线任务会被拖慢或方向走偏。",
+        "success_state": "当前阶段的问题被缓解，你获得进入下一阶段所需的条件。",
+        "transition_reason": "这一关的结果直接改变了局面，因此顺势进入下一阶段。",
+        "continuity_focus": "让下一关来自当前结果状态，而不是另起炉灶。",
+        "micro_decision_focus": "设计一个必须调用知识判断的真实微决策。",
+        "variety_guard": "避免与前一关重复同一种微决策外壳。"
+      }
+    ]
+  },
+  "primary_knowledge_points": [
+    "情绪识别与情绪管理",
+    "地图阅读与方向判断",
+    "地形地貌与地表特征",
+    "水的组成与净化",
+    "摩擦力",
+    "燃烧与灭火条件",
+    "反射定律",
+    "声音的产生与传播"
+  ],
+  "level_knowledge_sequence": [
+    "情绪识别与情绪管理",
+    "地图阅读与方向判断",
+    "地形地貌与地表特征",
+    "水的组成与净化",
+    "摩擦力",
+    "燃烧与灭火条件",
+    "反射定律",
+    "声音的产生与传播"
+  ],
+  "knowledge_point_to_level_count": {
+    "情绪识别与情绪管理": 1,
+    "地图阅读与方向判断": 1,
+    "地形地貌与地表特征": 1,
+    "水的组成与净化": 1,
+    "摩擦力": 1,
+    "燃烧与灭火条件": 1,
+    "反射定律": 1,
+    "声音的产生与传播": 1
+  }
+}

@@ -1,0 +1,111 @@
+{
+  "main_goal": "你们班组织到森林中春游，结果主角不小心与大部队走散。主角需要在独自应对紧张、迷失、寒冷、缺水、求救等连续问题的过程中，借助科学知识一步步完成自救，最终成功被老师或救援人员找到，并安全返回队伍。",
+  "story_intro": "你进入了这样的情境：你们班组织到森林中春游，结果主角不小心与大部队走散。主角需要在独自应对紧张、迷失、寒冷、缺水、求救等连续问题的过程中，借助科学知识一步步完成自救，最终成功被老师或救援人员找到，并安全返回队伍。",
+  "story_ending": "经历一连串判断与选择后，你完成了这段教育冒险。",
+  "stages": [
+    {
+      "level_number": 1,
+      "stage_label": "第1阶段",
+      "state_before": "故事刚开始，角色还在摸索第一步。",
+      "scene_description": "延续上一阶段结果，推进同一主线任务。",
+      "core_task": "解决当前阶段最关键、最现实的阻塞问题。",
+      "stakes": "如果这一关判断失误，主线任务会被拖慢或方向走偏。",
+      "success_state": "当前阶段的问题被缓解，你获得进入下一阶段所需的条件。",
+      "transition_reason": "这一关的结果直接改变了局面，因此顺势进入下一阶段。",
+      "continuity_focus": "让下一关来自当前结果状态，而不是另起炉灶。",
+      "micro_decision_focus": "设计一个必须调用知识判断的真实微决策。",
+      "variety_guard": "避免与前一关重复同一种微决策外壳。"
+    },
+    {
+      "level_number": 2,
+      "stage_label": "第2阶段",
+      "state_before": "当前阶段的问题被缓解，你获得进入下一阶段所需的条件。",
+      "scene_description": "延续上一阶段结果，推进同一主线任务。",
+      "core_task": "解决当前阶段最关键、最现实的阻塞问题。",
+      "stakes": "如果这一关判断失误，主线任务会被拖慢或方向走偏。",
+      "success_state": "当前阶段的问题被缓解，你获得进入下一阶段所需的条件。",
+      "transition_reason": "这一关的结果直接改变了局面，因此顺势进入下一阶段。",
+      "continuity_focus": "让下一关来自当前结果状态，而不是另起炉灶。",
+      "micro_decision_focus": "设计一个必须调用知识判断的真实微决策。",
+      "variety_guard": "避免与前一关重复同一种微决策外壳。"
+    },
+    {
+      "level_number": 3,
+      "stage_label": "第3阶段",
+      "state_before": "当前阶段的问题被缓解，你获得进入下一阶段所需的条件。",
+      "scene_description": "延续上一阶段结果，推进同一主线任务。",
+      "core_task": "解决当前阶段最关键、最现实的阻塞问题。",
+      "stakes": "如果这一关判断失误，主线任务会被拖慢或方向走偏。",
+      "success_state": "当前阶段的问题被缓解，你获得进入下一阶段所需的条件。",
+      "transition_reason": "这一关的结果直接改变了局面，因此顺势进入下一阶段。",
+      "continuity_focus": "让下一关来自当前结果状态，而不是另起炉灶。",
+      "micro_decision_focus": "设计一个必须调用知识判断的真实微决策。",
+      "variety_guard": "避免与前一关重复同一种微决策外壳。"
+    },
+    {
+      "level_number": 4,
+      "stage_label": "第4阶段",
+      "state_before": "当前阶段的问题被缓解，你获得进入下一阶段所需的条件。",
+      "scene_description": "延续上一阶段结果，推进同一主线任务。",
+      "core_task": "解决当前阶段最关键、最现实的阻塞问题。",
+      "stakes": "如果这一关判断失误，主线任务会被拖慢或方向走偏。",
+      "success_state": "当前阶段的问题被缓解，你获得进入下一阶段所需的条件。",
+      "transition_reason": "这一关的结果直接改变了局面，因此顺势进入下一阶段。",
+      "continuity_focus": "让下一关来自当前结果状态，而不是另起炉灶。",
+      "micro_decision_focus": "设计一个必须调用知识判断的真实微决策。",
+      "variety_guard": "避免与前一关重复同一种微决策外壳。"
+    },
+    {
+      "level_number": 5,
+      "stage_label": "第5阶段",
+      "state_before": "当前阶段的问题被缓解，你获得进入下一阶段所需的条件。",
+      "scene_description": "延续上一阶段结果，推进同一主线任务。",
+      "core_task": "解决当前阶段最关键、最现实的阻塞问题。",
+      "stakes": "如果这一关判断失误，主线任务会被拖慢或方向走偏。",
+      "success_state": "当前阶段的问题被缓解，你获得进入下一阶段所需的条件。",
+      "transition_reason": "这一关的结果直接改变了局面，因此顺势进入下一阶段。",
+      "continuity_focus": "让下一关来自当前结果状态，而不是另起炉灶。",
+      "micro_decision_focus": "设计一个必须调用知识判断的真实微决策。",
+      "variety_guard": "避免与前一关重复同一种微决策外壳。"
+    },
+    {
+      "level_number": 6,
+      "stage_label": "第6阶段",
+      "state_before": "当前阶段的问题被缓解，你获得进入下一阶段所需的条件。",
+      "scene_description": "延续上一阶段结果，推进同一主线任务。",
+      "core_task": "解决当前阶段最关键、最现实的阻塞问题。",
+      "stakes": "如果这一关判断失误，主线任务会被拖慢或方向走偏。",
+      "success_state": "当前阶段的问题被缓解，你获得进入下一阶段所需的条件。",
+      "transition_reason": "这一关的结果直接改变了局面，因此顺势进入下一阶段。",
+      "continuity_focus": "让下一关来自当前结果状态，而不是另起炉灶。",
+      "micro_decision_focus": "设计一个必须调用知识判断的真实微决策。",
+      "variety_guard": "避免与前一关重复同一种微决策外壳。"
+    },
+    {
+      "level_number": 7,
+      "stage_label": "第7阶段",
+      "state_before": "当前阶段的问题被缓解，你获得进入下一阶段所需的条件。",
+      "scene_description": "延续上一阶段结果，推进同一主线任务。",
+      "core_task": "解决当前阶段最关键、最现实的阻塞问题。",
+      "stakes": "如果这一关判断失误，主线任务会被拖慢或方向走偏。",
+      "success_state": "当前阶段的问题被缓解，你获得进入下一阶段所需的条件。",
+      "transition_reason": "这一关的结果直接改变了局面，因此顺势进入下一阶段。",
+      "continuity_focus": "让下一关来自当前结果状态，而不是另起炉灶。",
+      "micro_decision_focus": "设计一个必须调用知识判断的真实微决策。",
+      "variety_guard": "避免与前一关重复同一种微决策外壳。"
+    },
+    {
+      "level_number": 8,
+      "stage_label": "第8阶段",
+      "state_before": "当前阶段的问题被缓解，你获得进入下一阶段所需的条件。",
+      "scene_description": "延续上一阶段结果，推进同一主线任务。",
+      "core_task": "解决当前阶段最关键、最现实的阻塞问题。",
+      "stakes": "如果这一关判断失误，主线任务会被拖慢或方向走偏。",
+      "success_state": "当前阶段的问题被缓解，你获得进入下一阶段所需的条件。",
+      "transition_reason": "这一关的结果直接改变了局面，因此顺势进入下一阶段。",
+      "continuity_focus": "让下一关来自当前结果状态，而不是另起炉灶。",
+      "micro_decision_focus": "设计一个必须调用知识判断的真实微决策。",
+      "variety_guard": "避免与前一关重复同一种微决策外壳。"
+    }
+  ]
+}

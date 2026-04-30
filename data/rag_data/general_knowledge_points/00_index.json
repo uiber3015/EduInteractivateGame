@@ -1,0 +1,355 @@
+{
+  "total_count": 50,
+  "knowledge_points": [
+    {
+      "id": 1,
+      "name": "地图阅读与方向判断",
+      "story_cases_count": 5,
+      "misconceptions_count": 3,
+      "error_options_count": 2
+    },
+    {
+      "id": 2,
+      "name": "比例尺与图例应用",
+      "story_cases_count": 5,
+      "misconceptions_count": 3,
+      "error_options_count": 2
+    },
+    {
+      "id": 3,
+      "name": "经纬网与位置定位",
+      "story_cases_count": 5,
+      "misconceptions_count": 3,
+      "error_options_count": 2
+    },
+    {
+      "id": 4,
+      "name": "地球自转与昼夜变化",
+      "story_cases_count": 5,
+      "misconceptions_count": 3,
+      "error_options_count": 2
+    },
+    {
+      "id": 5,
+      "name": "地球公转与四季变化",
+      "story_cases_count": 5,
+      "misconceptions_count": 3,
+      "error_options_count": 2
+    },
+    {
+      "id": 6,
+      "name": "时区与区时计算",
+      "story_cases_count": 5,
+      "misconceptions_count": 3,
+      "error_options_count": 2
+    },
+    {
+      "id": 7,
+      "name": "地形地貌与地表特征",
+      "story_cases_count": 5,
+      "misconceptions_count": 3,
+      "error_options_count": 2
+    },
+    {
+      "id": 8,
+      "name": "山地、平原、高原、盆地的特点",
+      "story_cases_count": 5,
+      "misconceptions_count": 3,
+      "error_options_count": 2
+    },
+    {
+      "id": 9,
+      "name": "气温变化与影响因素",
+      "story_cases_count": 5,
+      "misconceptions_count": 3,
+      "error_options_count": 2
+    },
+    {
+      "id": 10,
+      "name": "降水变化与影响因素",
+      "story_cases_count": 5,
+      "misconceptions_count": 3,
+      "error_options_count": 2
+    },
+    {
+      "id": 11,
+      "name": "天气与气候的区别",
+      "story_cases_count": 5,
+      "misconceptions_count": 3,
+      "error_options_count": 2
+    },
+    {
+      "id": 12,
+      "name": "世界主要气候类型",
+      "story_cases_count": 5,
+      "misconceptions_count": 3,
+      "error_options_count": 2
+    },
+    {
+      "id": 13,
+      "name": "季风气候与生产生活",
+      "story_cases_count": 5,
+      "misconceptions_count": 3,
+      "error_options_count": 2
+    },
+    {
+      "id": 14,
+      "name": "河流特征与流域开发",
+      "story_cases_count": 5,
+      "misconceptions_count": 3,
+      "error_options_count": 2
+    },
+    {
+      "id": 15,
+      "name": "水资源分布与合理利用",
+      "story_cases_count": 5,
+      "misconceptions_count": 3,
+      "error_options_count": 2
+    },
+    {
+      "id": 16,
+      "name": "海洋与人类活动",
+      "story_cases_count": 5,
+      "misconceptions_count": 3,
+      "error_options_count": 2
+    },
+    {
+      "id": 17,
+      "name": "自然资源的分类与利用",
+      "story_cases_count": 5,
+      "misconceptions_count": 3,
+      "error_options_count": 2
+    },
+    {
+      "id": 18,
+      "name": "农业类型与农业分布",
+      "story_cases_count": 5,
+      "misconceptions_count": 3,
+      "error_options_count": 2
+    },
+    {
+      "id": 19,
+      "name": "工业布局与区位因素",
+      "story_cases_count": 5,
+      "misconceptions_count": 3,
+      "error_options_count": 2
+    },
+    {
+      "id": 20,
+      "name": "交通运输方式与区域联系",
+      "story_cases_count": 5,
+      "misconceptions_count": 3,
+      "error_options_count": 2
+    },
+    {
+      "id": 21,
+      "name": "人口分布与人口问题",
+      "story_cases_count": 5,
+      "misconceptions_count": 3,
+      "error_options_count": 2
+    },
+    {
+      "id": 22,
+      "name": "人口迁移与城市发展",
+      "story_cases_count": 5,
+      "misconceptions_count": 3,
+      "error_options_count": 2
+    },
+    {
+      "id": 23,
+      "name": "城市化及其问题",
+      "story_cases_count": 5,
+      "misconceptions_count": 3,
+      "error_options_count": 2
+    },
+    {
+      "id": 24,
+      "name": "聚落形成与自然环境",
+      "story_cases_count": 5,
+      "misconceptions_count": 3,
+      "error_options_count": 2
+    },
+    {
+      "id": 25,
+      "name": "中国地理分区与区域差异",
+      "story_cases_count": 5,
+      "misconceptions_count": 3,
+      "error_options_count": 2
+    },
+    {
+      "id": 26,
+      "name": "南方北方的自然与人文差异",
+      "story_cases_count": 5,
+      "misconceptions_count": 3,
+      "error_options_count": 2
+    },
+    {
+      "id": 27,
+      "name": "西北地区与青藏地区特征",
+      "story_cases_count": 5,
+      "misconceptions_count": 3,
+      "error_options_count": 2
+    },
+    {
+      "id": 28,
+      "name": "自然灾害与防灾减灾",
+      "story_cases_count": 5,
+      "misconceptions_count": 3,
+      "error_options_count": 2
+    },
+    {
+      "id": 29,
+      "name": "生态环境保护与修复",
+      "story_cases_count": 5,
+      "misconceptions_count": 3,
+      "error_options_count": 2
+    },
+    {
+      "id": 30,
+      "name": "可持续发展与低碳生活",
+      "story_cases_count": 5,
+      "misconceptions_count": 3,
+      "error_options_count": 2
+    },
+    {
+      "id": 31,
+      "name": "历史时序与朝代更替",
+      "story_cases_count": 5,
+      "misconceptions_count": 3,
+      "error_options_count": 2
+    },
+    {
+      "id": 32,
+      "name": "统一与分裂对历史发展的影响",
+      "story_cases_count": 5,
+      "misconceptions_count": 3,
+      "error_options_count": 2
+    },
+    {
+      "id": 33,
+      "name": "古代中央集权与国家治理",
+      "story_cases_count": 5,
+      "misconceptions_count": 3,
+      "error_options_count": 2
+    },
+    {
+      "id": 34,
+      "name": "古代农业、手工业与商业发展",
+      "story_cases_count": 5,
+      "misconceptions_count": 3,
+      "error_options_count": 2
+    },
+    {
+      "id": 35,
+      "name": "科技发明与文明进步",
+      "story_cases_count": 5,
+      "misconceptions_count": 3,
+      "error_options_count": 2
+    },
+    {
+      "id": 36,
+      "name": "丝绸之路与中外交流",
+      "story_cases_count": 5,
+      "misconceptions_count": 3,
+      "error_options_count": 2
+    },
+    {
+      "id": 37,
+      "name": "民族交往与文化融合",
+      "story_cases_count": 5,
+      "misconceptions_count": 3,
+      "error_options_count": 2
+    },
+    {
+      "id": 38,
+      "name": "变法改革与社会转型",
+      "story_cases_count": 5,
+      "misconceptions_count": 3,
+      "error_options_count": 2
+    },
+    {
+      "id": 39,
+      "name": "重要历史人物的多角度评价",
+      "story_cases_count": 5,
+      "misconceptions_count": 3,
+      "error_options_count": 2
+    },
+    {
+      "id": 40,
+      "name": "战争与和平对社会的影响",
+      "story_cases_count": 5,
+      "misconceptions_count": 3,
+      "error_options_count": 2
+    },
+    {
+      "id": 41,
+      "name": "近代列强入侵与民族危机",
+      "story_cases_count": 5,
+      "misconceptions_count": 3,
+      "error_options_count": 2
+    },
+    {
+      "id": 42,
+      "name": "近代中国的救亡图存",
+      "story_cases_count": 5,
+      "misconceptions_count": 3,
+      "error_options_count": 2
+    },
+    {
+      "id": 43,
+      "name": "抗日战争与民族精神",
+      "story_cases_count": 5,
+      "misconceptions_count": 3,
+      "error_options_count": 2
+    },
+    {
+      "id": 44,
+      "name": "新中国成立与社会重建",
+      "story_cases_count": 5,
+      "misconceptions_count": 3,
+      "error_options_count": 2
+    },
+    {
+      "id": 45,
+      "name": "改革开放与现代化发展",
+      "story_cases_count": 5,
+      "misconceptions_count": 3,
+      "error_options_count": 2
+    },
+    {
+      "id": 46,
+      "name": "情绪识别与情绪管理",
+      "story_cases_count": 5,
+      "misconceptions_count": 3,
+      "error_options_count": 2
+    },
+    {
+      "id": 47,
+      "name": "压力应对与挫折调适",
+      "story_cases_count": 5,
+      "misconceptions_count": 3,
+      "error_options_count": 2
+    },
+    {
+      "id": 48,
+      "name": "人际沟通与合作冲突",
+      "story_cases_count": 5,
+      "misconceptions_count": 3,
+      "error_options_count": 2
+    },
+    {
+      "id": 49,
+      "name": "规则意识与责任担当",
+      "story_cases_count": 5,
+      "misconceptions_count": 3,
+      "error_options_count": 2
+    },
+    {
+      "id": 50,
+      "name": "网络素养与信息辨别",
+      "story_cases_count": 5,
+      "misconceptions_count": 3,
+      "error_options_count": 2
+    }
+  ]
+}

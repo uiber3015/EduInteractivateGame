@@ -1,0 +1,14 @@
+{
+  "status": "running",
+  "scenario": "你在周末帮助你的爷爷搬家，但是遇到了一些问题，需要你借助各种知识来解决这些问题。",
+  "num_questions": 8,
+  "text_provider": "aigcbest",
+  "image_provider": "legacy",
+  "generate_images": true,
+  "auto_select_knowledge": true,
+  "updated_at": "2026-04-25 12:33:15",
+  "step_1_completed": true,
+  "step_2_completed": true,
+  "step_3_completed": true,
+  "step_4_completed": true
+}

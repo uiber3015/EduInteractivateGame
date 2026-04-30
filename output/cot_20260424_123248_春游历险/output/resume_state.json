@@ -1,0 +1,14 @@
+{
+  "status": "running",
+  "scenario": "你们班组织到森林中春游，结果主角不小心与大部队走散。主角需要在独自应对紧张、迷失、寒冷、缺水、求救等连续问题的过程中，借助科学知识一步步完成自救，最终成功被老师或救援人员找到，并安全返回队伍。 ",
+  "num_questions": 8,
+  "text_provider": "aigcbest",
+  "image_provider": "legacy",
+  "generate_images": true,
+  "auto_select_knowledge": true,
+  "updated_at": "2026-04-24 15:31:21",
+  "step_1_completed": true,
+  "step_2_completed": true,
+  "step_3_completed": true,
+  "step_4_completed": true
+}

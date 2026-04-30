@@ -1,0 +1,102 @@
+{
+  "id": 29,
+  "name": "钠及其化合物",
+  "core_concept": "- **钠的性质**：银白色软金属，密度0.97g/cm³（比水小），熔点97.8°C；极活泼，保存在煤油中\n- **与水反应**：2Na+2H₂O→2NaOH+H₂↑（浮、熔、游、响、消）\n- **与O₂反应**：常温：4Na+O₂→2Na₂O（白色）；点燃：2Na+O₂→Na₂O₂（淡黄色）\n- **氧化钠（Na₂O）**：白色，碱性氧化物；Na₂O+H₂O→2NaOH；Na₂O+CO₂→Na₂CO₃\n- **过氧化钠（Na₂O₂）**：淡黄色，强氧化剂；2Na₂O₂+2H₂O→4NaOH+O₂↑；2Na₂O₂+2CO₂→2Na₂CO₃+O₂↑（供氧剂，用于呼吸面具）\n- **NaOH**：强碱，白色固体，易潮解；与酸中和；与酸性氧化物反应；与铝反应放H₂\n- **Na₂CO₃（纯碱/苏打）**：白色粉末，碱性（水解）；Na₂CO₃+2HCl→2NaCl+H₂O+CO₂↑\n- **NaHCO₃（小苏打）**：白色粉末，碱性较弱；加热分解：2NaHCO₃→Na₂CO₃+H₂O+CO₂↑",
+  "story_cases": [
+    {
+      "title": "案例1：钠与水反应的奇特现象",
+      "content": "金属钠放入水中，发生一系列奇特现象，可用'浮、熔、游、响、消'五字概括。浮：Na密度（0.97g/cm³）小于水，浮在水面；熔：反应放热，Na熔点仅97.8°C，迅速熔化成银白色小球；游：H₂气泡推动Na球在水面快速游动；响：反应剧烈，发出嘶嘶声；消：Na最终完全溶解消失。反应方程式：2Na+2H₂O→2NaOH+H₂↑。若加入酚酞指示剂，溶液变红（NaOH碱性）。Na量较多时，H₂可能被点燃，发出黄色火焰（Na蒸气的焰色）。实验安全：Na块不能太大（危险），用镊子夹取，不能用手（NaOH腐蚀皮肤）。",
+      "application": "钠与水反应剧烈，生成NaOH和H₂，反应现象直观体现了钠的强活泼性，'浮熔游响消'是描述该反应现象的经典总结。",
+      "type": "生活场景",
+      "difficulty": "简单",
+      "creativity": 0.7
+    },
+    {
+      "title": "案例2：Na₂O₂用于呼吸面具",
+      "content": "过氧化钠（Na₂O₂，淡黄色）是矿山、潜水艇等密闭环境中的供氧剂。原理：Na₂O₂与人呼出的CO₂和水蒸气反应，同时放出O₂：2Na₂O₂+2CO₂→2Na₂CO₃+O₂↑；2Na₂O₂+2H₂O→4NaOH+O₂↑。双重功效：①消耗CO₂（防止CO₂积累中毒）；②产生O₂（维持呼吸）。1mol Na₂O₂（78g）与CO₂反应产生0.5mol O₂（11.2L，标准状况）；与H₂O反应产生0.5mol O₂。Na₂O₂是强氧化剂，接触有机物（如棉花、木屑）可能引燃，使用时需注意安全。Na₂O₂中O的化合价为-1价（过氧根O₂²⁻），与Na₂O中O的-2价不同。",
+      "application": "Na₂O₂与CO₂和H₂O反应放出O₂，同时消耗CO₂，是密闭环境供氧的理想材料，体现了过氧化钠独特的化学性质。",
+      "type": "科技场景",
+      "difficulty": "中等",
+      "creativity": 0.8
+    },
+    {
+      "title": "案例3：侯氏制碱法与纯碱工业",
+      "content": "纯碱（Na₂CO₃）是重要的化工原料，年产量约5000万吨。侯氏制碱法（1943年，侯德榜）：向饱和NaCl溶液中通入NH₃和CO₂，析出NaHCO₃晶体（溶解度最小），过滤后加热分解：2NaHCO₃→Na₂CO₃+H₂O+CO₂↑，得纯碱。母液中加NaCl析出NH₄Cl（化肥）。Na₂CO₃的用途：玻璃（Na₂CO₃+SiO₂→Na₂SiO₃+CO₂，高温）、造纸、洗涤剂、食品（发酵粉）。Na₂CO₃水溶液显碱性（CO₃²⁻水解），pH约11-12，俗称'纯碱'或'苏打'，但不是碱（是盐）。NaHCO₃（小苏打）碱性较弱（pH约8-9），加热分解产生CO₂，用于面包发酵和灭火器。",
+      "application": "侯氏制碱法巧妙利用溶解度差异分离NaHCO₃，再加热分解得Na₂CO₃，是化学平衡和溶解度原理在工业中的综合应用。",
+      "type": "历史场景",
+      "difficulty": "中等",
+      "creativity": 0.9
+    },
+    {
+      "title": "案例4：NaOH的工业生产与用途",
+      "content": "NaOH（烧碱/火碱）是最重要的工业碱，年产量约9000万吨。工业生产：电解饱和NaCl溶液（氯碱工业），阴极：2H₂O+2e⁻→H₂↑+2OH⁻，Na⁺与OH⁻结合得NaOH。NaOH的主要用途：①造纸（NaOH蒸煮木材，溶解木质素）；②纺织（粘胶纤维生产）；③化工（皂化反应制肥皂）；④食品（碱水面条、皮蛋制作）；⑤污水处理（中和酸性废水）。NaOH固体极易潮解（吸收空气中水分），应密封保存。NaOH溶液腐蚀性强，溅到皮肤应立即用大量水冲洗，再涂硼酸溶液（弱酸中和）。NaOH不能用于中和胃酸（腐蚀性太强），应用Al(OH)₃或NaHCO₃。",
+      "application": "NaOH是强碱，工业上通过电解NaCl溶液生产，其强碱性和与酸性物质的反应使其在造纸、纺织、化工等领域有广泛应用。",
+      "type": "科技场景",
+      "difficulty": "中等",
+      "creativity": 0.7
+    },
+    {
+      "title": "案例5：Na₂CO₃与NaHCO₃的鉴别",
+      "content": "Na₂CO₃（纯碱）和NaHCO₃（小苏打）外观相似（白色粉末），但性质不同，可用多种方法鉴别。方法一：加热——NaHCO₃加热分解（2NaHCO₃→Na₂CO₃+H₂O+CO₂↑，60°C以上），Na₂CO₃加热不分解（熔点851°C）；将产生的气体通入澄清石灰水，变浑浊说明是NaHCO₃。方法二：加稀盐酸——两者都产生CO₂，但NaHCO₃反应更快（直接与H⁺反应），Na₂CO₃反应较慢（先生成NaHCO₃再产生CO₂）。方法三：加CaCl₂溶液——Na₂CO₃产生白色沉淀（CaCO₃↓），NaHCO₃不产生沉淀（Ca(HCO₃)₂可溶）。方法四：pH试纸——Na₂CO₃溶液pH约11-12，NaHCO₃溶液pH约8-9，Na₂CO₃碱性更强。",
+      "application": "Na₂CO₃和NaHCO₃的鉴别利用了两者热稳定性、与酸反应速率、与CaCl₂反应等性质的差异，体现了化学性质差异在物质鉴别中的应用。",
+      "type": "生活场景",
+      "difficulty": "中等",
+      "creativity": 0.7
+    },
+    {
+      "title": "案例6：钠在自然界中的存在与提取",
+      "content": "钠是地壳中第六丰富的元素（约2.6%），但因活泼性极强，自然界中不存在游离态钠，全部以化合物形式存在：NaCl（海盐、岩盐）、Na₂SO₄（芒硝）、Na₂CO₃（天然碱）、NaNO₃（智利硝石）。工业制钠：电解熔融NaCl（不能电解NaCl溶液，因为溶液中H₂O比Na⁺更容易在阴极得电子）：2NaCl(熔融)→2Na+Cl₂↑（电解，600°C）。每生产1吨Na消耗电能约10000kWh。钠的用途：①钠钾合金（液态，-12°C至785°C）用作核反应堆冷却剂；②钠灯（发黄光，穿透力强，用于路灯、隧道灯）；③有机合成（还原剂）。全球钠年产量约10万吨，远少于铝（6500万吨），因为钠的用途相对有限。",
+      "application": "钠的强活泼性使其在自然界中只以化合物形式存在，工业提取必须用电解熔融盐（不能用水溶液电解），体现了金属活动性对冶炼方法的决定性影响。",
+      "type": "科技场景",
+      "difficulty": "困难",
+      "creativity": 0.8
+    }
+  ],
+  "misconceptions": [
+    {
+      "title": "误区1：Na₂O₂与水反应只生成NaOH",
+      "wrong_understanding": "认为Na₂O₂与水反应只生成NaOH（类似Na₂O+H₂O→2NaOH），不产生O₂。",
+      "correct_understanding": "Na₂O₂与水反应生成NaOH和O₂：2Na₂O₂+2H₂O→4NaOH+O₂↑。Na₂O₂中O为-1价（过氧根），与水反应时，一个O被氧化为0价（O₂），另一个O被还原为-2价（OH⁻），是歧化反应。Na₂O（O为-2价）与水反应只生成NaOH，不产生O₂。两者不能混淆。",
+      "frequency": "约65%的学生有此误区",
+      "typical_error": "写Na₂O₂与水反应方程式时，错误地写成Na₂O₂+H₂O→2NaOH（类比Na₂O），忽略了O₂的生成。",
+      "exam_example": "考试中常见：写Na₂O₂与水反应的化学方程式时，错误地写成Na₂O₂+H₂O→2NaOH，忘记生成O₂，且方程式原子不守恒。"
+    },
+    {
+      "title": "误区2：Na₂CO₃是碱",
+      "wrong_understanding": "认为Na₂CO₃（纯碱）是碱，因为它俗称'纯碱'，溶液显碱性，能与酸反应。",
+      "correct_understanding": "Na₂CO₃是盐（碳酸钠），不是碱。碱的定义是电离产生OH⁻的化合物（如NaOH、Ca(OH)₂）。Na₂CO₃溶液显碱性是因为CO₃²⁻水解产生OH⁻，不是Na₂CO₃本身电离出OH⁻。'纯碱'是俗称，不代表它是碱。Na₂CO₃属于强碱弱酸盐，水解显碱性，但它是盐，不是碱。",
+      "frequency": "约70%的学生有此误区",
+      "typical_error": "认为Na₂CO₃是碱，与NaOH性质相同，都能电离出OH⁻。",
+      "exam_example": "考试中常见：判断Na₂CO₃是酸、碱还是盐时，错误地认为是碱，因为溶液显碱性且俗称'纯碱'。"
+    },
+    {
+      "title": "误区3：NaHCO₃加热分解生成Na₂O和H₂O和CO₂",
+      "wrong_understanding": "认为NaHCO₃加热分解生成Na₂O（氧化钠）、H₂O和CO₂，类比碳酸分解（H₂CO₃→H₂O+CO₂）。",
+      "correct_understanding": "NaHCO₃加热分解生成Na₂CO₃、H₂O和CO₂：2NaHCO₃→Na₂CO₃+H₂O+CO₂↑，不是Na₂O。Na₂CO₃在此温度下（约60°C以上）稳定，不分解。Na₂O是Na₂CO₃进一步高温分解的产物（需要更高温度），不是NaHCO₃直接分解的产物。",
+      "frequency": "约55%的学生有此误区",
+      "typical_error": "写NaHCO₃加热分解方程式时，错误地写成NaHCO₃→Na₂O+H₂O+CO₂（原子不守恒，且产物错误）。",
+      "exam_example": "考试中常见：写NaHCO₃加热分解的化学方程式时，错误地写成生成Na₂O，正确产物应为Na₂CO₃。"
+    }
+  ],
+  "error_options": [
+    {
+      "scenario": "将足量CO₂通入NaOH溶液中，分析最终产物",
+      "correct_option": "CO₂足量时，NaOH完全转化为NaHCO₃：NaOH+CO₂→NaHCO₃（CO₂过量时，Na₂CO₃继续与CO₂反应：Na₂CO₃+CO₂+H₂O→2NaHCO₃）。最终产物只有NaHCO₃，无Na₂CO₃和NaOH",
+      "option_number": 1,
+      "option_text": "最终产物是Na₂CO₃，因为CO₂与NaOH反应：CO₂+2NaOH→Na₂CO₃+H₂O",
+      "deception": "CO₂与NaOH反应生成Na₂CO₃是常见反应，容易忽略CO₂足量时会继续反应",
+      "error_reason": "CO₂足量时，Na₂CO₃会继续与CO₂和水反应生成NaHCO₃，最终产物是NaHCO₃而非Na₂CO₃",
+      "failure_analysis": "CO₂与NaOH的反应分两步：第一步（NaOH过量）：CO₂+2NaOH→Na₂CO₃+H₂O；第二步（CO₂过量）：Na₂CO₃+CO₂+H₂O→2NaHCO₃。当CO₂足量时，两步反应都发生，最终NaOH全部转化为NaHCO₃。类比：向Na₂CO₃溶液中逐滴加入盐酸，先无气泡（Na₂CO₃+HCl→NaHCO₃+NaCl），后有气泡（NaHCO₃+HCl→NaCl+H₂O+CO₂↑）。CO₂与NaOH的反应也是分步的，CO₂足量时最终产物是NaHCO₃。"
+    },
+    {
+      "scenario": "Na₂O₂与CO₂反应：2Na₂O₂+2CO₂→2Na₂CO₃+O₂，分析该反应中Na₂O₂的作用",
+      "correct_option": "Na₂O₂既是氧化剂又是还原剂（歧化反应）。Na₂O₂中O为-1价：一部分O从-1价升高到0价（O₂，被氧化，Na₂O₂作还原剂）；另一部分O从-1价降低到-2价（Na₂CO₃中O，被还原，Na₂O₂作氧化剂）。CO₂中C从+4价不变，O从-2价不变，CO₂既不是氧化剂也不是还原剂",
+      "option_number": 2,
+      "option_text": "Na₂O₂只是氧化剂，CO₂是还原剂，因为CO₂被氧化为O₂",
+      "deception": "反应产生O₂，感觉O₂来自CO₂的氧化，CO₂是还原剂",
+      "error_reason": "O₂来自Na₂O₂中的O（-1价→0价），不是来自CO₂；CO₂中O为-2价，反应前后不变，CO₂不参与氧化还原",
+      "failure_analysis": "分析氧化还原反应要追踪每种元素的化合价变化。Na₂O₂中O为-1价；产物Na₂CO₃中O为-2价，O₂中O为0价。Na₂O₂中的O：一部分从-1→-2（降低，被还原，Na₂O₂作氧化剂）；另一部分从-1→0（升高，被氧化，Na₂O₂作还原剂）。这是歧化反应（同一物质中同种元素同时被氧化和还原）。CO₂中C为+4价（不变），O为-2价（不变），CO₂在此反应中化合价不变，既不是氧化剂也不是还原剂，只是提供了CO₃²⁻。"
+    }
+  ],
+  "teaching_advice": "1. 用钠与水反应实验（浮熔游响消）直观展示钠的活泼性，注意安全操作\n2. 强调Na₂O₂与水/CO₂反应产生O₂，与Na₂O的反应区分\n3. 用Na₂CO₃和NaHCO₃的鉴别实验，帮助学生掌握两者性质差异\n4. 强调Na₂CO₃是盐不是碱，'纯碱'是俗称\n5. 介绍侯氏制碱法，联系化学平衡和溶解度知识"
+}

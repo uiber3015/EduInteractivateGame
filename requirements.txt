@@ -1,0 +1,23 @@
+# EduInteractivateGame runtime dependencies
+
+# Core utilities
+requests>=2.31.0
+numpy>=1.24.0
+python-dotenv>=1.0.0
+
+# Web visualization
+flask>=2.3.0
+
+# LLM / prompt generation
+openai>=1.6.0
+langchain>=0.1.0
+langchain-openai>=0.0.5
+langchain-community>=0.0.20
+tiktoken>=0.5.0
+
+# Retrieval / vector search
+faiss-cpu>=1.7.4
+
+# Image generation
+pillow>=10.0.0
+google-genai>=0.3.0
